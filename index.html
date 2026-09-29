@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Alarm Clock | Set a Daily Alarm in Your Browser</title>
+    <meta name="description" content="A lightweight browser alarm clock that shows the live time and lets you set an alarm with a ringtone alert.">
+    <meta name="keywords" content="alarm clock, javascript clock, browser alarm, time tool, web alarm app">
+    <meta property="og:title" content="Simple Alarm Clock">
+    <meta property="og:description" content="A lightweight browser alarm clock that shows the live time and lets you set an alarm with a ringtone alert.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="./files/clock.svg" alt="clock">
+      <h1>00:00:00 PM</h1>
+      <div class="content">
+        <div class="column">
+          <select>
+            <option value="Hour" selected disabled hidden>Hour</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="Minute" selected disabled hidden>Minute</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="AM/PM" selected disabled hidden>AM/PM</option>
+          </select>
+        </div>
+      </div>
+      <button>Set Alarm</button>
+      <p class="hint">Tip: press Enter to set the alarm</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
